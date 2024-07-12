@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dashboard - commande</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+      @media (min-width: 992px) {
+        .contente {
+          margin-left: 225px;
+        }
+        .contente2 {
+          height: 78vh;
+        }
+      }
+    </style>
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css
+    "
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body
+    class="bg-light"
+    style="width: 100%; height: 100vh; font-family: Poppins, sans-serif"
+  >
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-2 d-none d-lg-block col-lg-2 bg-white shadow-sm"
+          style="height: 100vh; position: fixed; left: 0; bottom: 0"
+        >
+          <div class="row">
+            <div class="col-12 px-4 py-3">
+                <a class="navbar-brand fs-2" href="#" style="font-family: Itim, cursive"
+              >WANEMA</a
+            >
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-12">
+              <nav>
+                <ul
+                  class="d-flex flex-column gap-4 justify-content-start justify-content-lg-middle"
+                >
+                  <li class="d-flex gap-3 fs-5">
+                    <i class="ri-home-3-line "></i>
+                    <a
+                      href="profil.html"
+                      class="text-decoration-none text-dark d-none d-lg-block"
+                      >Accueil</a
+                    >
+                  </li>
+                  <li class="d-flex gap-3 fs-5">
+                    <i class="ri-image-2-line"></i>
+                    <a
+                      href="produit.html"
+                      class="text-decoration-none text-dark d-none d-lg-block"
+                      >Produits</a
+                    >
+                  </li>
+                  <li class="d-flex gap-3 fs-5">
+                    <i class="ri-discuss-line"></i>
+                    <a
+                      href="message.html"
+                      class="text-decoration-none text-dark d-none d-lg-block"
+                      >Message</a
+                    >
+                  </li>
+                  <li class="d-flex gap-3 fs-5">
+                    <i class="ri-shape-line"></i>
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark d-none d-lg-block"
+                      >Commande</a
+                    >
+                  </li>
+                  <li class="d-flex gap-3 fs-5">
+                    <i class="ri-settings-line"></i>
+                    <a
+                      href="aide.html"
+                      class="text-decoration-none text-dark d-none d-lg-block"
+                      >Suppport</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-10 contente" style="height: 100vh">
+          <div
+            class="container d-flex flex-column justify-content-between"
+            style="height: 100vh"
+          >
+            <div>
+              <div class="row">
+                <div
+                  class="col-12 bg-white shadow-sm d-flex align-items-center justify-content-between"
+                  style="height: 12vh"
+                >
+                  <div class="d-flex gap-3 align-items-center">
+                    <div
+                      class="fs-4 bg-light d-flex justify-content-center align-items-center rounded-circle"
+                      style="width: 45px; height: 45px"
+                      data-bs-toggle="offcanvas"
+                      href="#offcanvasExample"
+                      aria-controls="offcanvasExample"
+                    >
+                    <i class="ri-menu-2-fill"></i>
+                    </div>
+                    <div>
+                      <nav class="navbar d-none d-lg-block">
+                        <div class="container-fluid">
+                          <form class="d-flex" role="search">
+                            <input
+                              class="form-control border border-end-0 bg-light rounded-start"
+                              type="search"
+                              placeholder="Recherche..."
+                              aria-label="Search"
+                              style="width: 270px"
+                            />
+                            <button
+                              class="border border-start-0 rounded-end bg-light"
+                              type="submit"
+                            >
+                              <i class="ri-search-line text-success"></i>
+                            </button>
+                          </form>
+                        </div>
+                      </nav>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-3">
+                    
+                    <div class="d-flex gap-3 align-items-center">
+                      <div class="d-flex flex-column">
+                        <p class="fw-bold m-0">Commandes</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-between mt-3">
+                <div class="col-12 col-lg-12 bg-white shadow-sm">
+                  <div class="row py-3">
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-12">
+                            <h3>Aucune commandes disponible pour le moment</h3>                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                        <img src="../../assets/Cyber security.png" class="img-fluid"  alt="">
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="offcanvas offcanvas-start d-block d-lg-none"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="row">
+            <div class="col-12 px-4 py-3">
+                <a class="navbar-brand fs-2" href="#" style="font-family: Itim, cursive"
+              >WANEMA</a
+            >
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-12">
+              <nav>
+                <ul
+                  class="d-flex flex-column gap-4 justify-content-start justify-content-lg-middle"
+                >
+                  <li class="d-flex gap-3 fs-5">
+                    <i class="ri-home-3-line "></i>
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark  d-lg-block"
+                      >Accueil</a
+                    >
+                  </li>
+                  <li class="d-flex gap-3 fs-5">
+                    <i class="ri-image-2-line"></i>
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark d-lg-block"
+                      >Produits</a
+                    >
+                  </li>
+                  <li class="d-flex gap-3 fs-5">
+                    <i class="ri-discuss-line"></i>
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark  d-lg-block"
+                      >Message</a
+                    >
+                  </li>
+                  <li class="d-flex gap-3 fs-5">
+                    <i class="ri-shape-line"></i>
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark  d-lg-block"
+                      >Commande</a
+                    >
+                  </li>
+                  <li class="d-flex gap-3 fs-5">
+                    <i class="ri-settings-line"></i>
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark  d-lg-block"
+                      >Suppport</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
